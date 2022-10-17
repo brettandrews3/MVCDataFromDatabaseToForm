@@ -33,7 +33,6 @@ namespace MVCApp.Controllers
             ViewBag.Message = "Employee Sign Up";
 
             return View();
-            //Boomshut
         }
     }
 }
