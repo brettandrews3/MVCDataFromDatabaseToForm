@@ -50,5 +50,5 @@ namespace MVCApp.Models
         public string ConfirmPassword { get; set; }
     }
 }
-
+// This is the front end model. It's different from the EmployeeModel in DataLibrary, which controls business logic
 // This is using jQuery validation and tracking the data on the CLIENT side
