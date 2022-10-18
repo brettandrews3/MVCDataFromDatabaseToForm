@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 .vs/MVCDataFromDatabaseToForm/v17/.suo
 *.jfm
+*.jfm
+.vs/MVCDataFromDatabaseToForm/v17/.suo
