@@ -51,4 +51,5 @@ namespace MVCApp.Models
     }
 }
 // This is the front end model. It's different from the EmployeeModel in DataLibrary, which controls business logic
+// All of the [annotations] are MVC-specific. We wouldn't put these into a console app
 // This is using jQuery validation and tracking the data on the CLIENT side
