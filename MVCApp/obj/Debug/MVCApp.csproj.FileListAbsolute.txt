@@ -156,3 +156,9 @@ C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\obj\Debug\M
 C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\obj\Debug\MVCApp.csproj.CopyComplete
 C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\obj\Debug\MVCApp.dll
 C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\obj\Debug\MVCApp.pdb
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\roslyn\System.Buffers.dll
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\roslyn\System.Memory.dll
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\Dapper.dll
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\Dapper.xml
