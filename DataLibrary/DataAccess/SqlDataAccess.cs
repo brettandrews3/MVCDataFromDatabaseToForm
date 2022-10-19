@@ -22,7 +22,7 @@ namespace DataLibrary.DataAccess
         /* <T> Explanation:
          * Load data, and here's the model I want you you to load into <T>. This returns a List of that model.
          * I connect to SQL and say, 'Give me this string to call (string sql here). Execute that SQL and load
-         * that query into type <T>. This query returns an <I> enumerable, but I want a List. Thus, I use .ToList()
+         * that query into type <T>. This query returns an IEnumerable, but I want a List. Thus, I use .ToList()
          * to return that whole thing. That's all we need to load data if we DON'T need parameters.
          * */
         public static List<T> LoadData<T>(string sql)
@@ -34,7 +34,9 @@ namespace DataLibrary.DataAccess
             }
         }
 
+        // The object I passed in should have the params in the SQL itself
         // Looking in object 'data' for FirstName property, take that value, and replace it.
+        // We return (sql, data) because it should return the number of records affected: 1.
         public static int SaveData<T>(string sql, T data)
         {
             using (IDbConnection cnn = new SqlConnection(GetConnectionString()))
