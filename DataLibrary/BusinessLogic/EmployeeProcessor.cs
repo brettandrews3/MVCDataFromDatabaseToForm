@@ -43,7 +43,7 @@ namespace DataLibrary.BusinessLogic
         {
             // Simple SQL statement: grab everything from an employee's listing in the DB...
             string sql = @"select Id, EmployeeId, FirstName, LastName, EmailAddress
-                            from dbo.Employees;";
+                            from dbo.Employee;";
 
             // ...and return it back to us. <EmployeeModel> is in these brackets because we're not passing <T> IN somewhere.
             // This 'sql' isn't parameterized because there's no parameters to pass in.

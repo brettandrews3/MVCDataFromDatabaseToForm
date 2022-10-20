@@ -29,6 +29,36 @@ namespace MVCApp.Controllers
             return View();
         }
 
+        // Connecting back to front. Tied to video at 1:04:50
+        // To scaffold out the View here, I right-click ViewEmployees() and select Add View. Select MVC5 View and hit Add.
+        // View name is "View Employees". Template is 'List'. Model is MVCApp.Models. This scaffolds out the View in Razor pages,
+        // which can be seen at ViewEmployees.cshtml
+        public ActionResult ViewEmployees()
+        {
+            ViewBag.Message = "Employees List";
+
+            // Call to BusinessLogic and loads all the employees
+            var data = LoadEmployees();
+            List<EmployeeModel> employees = new List<EmployeeModel>();
+
+            // Transform the List<EmployeeModel> into something useful:
+            foreach (var row in data)
+            {
+                // Describe how the employees will be displayed; adds new employee for every data entry in Employee table
+                employees.Add(new EmployeeModel
+                {
+                    EmployeeId = row.EmployeeId,
+                    FirstName = row.FirstName,
+                    LastName = row.LastName,
+                    EmailAddress = row.EmailAddress,
+                    ConfirmEmail = row.EmailAddress     // If user edits employee, they don't have to enter EmailAddress twice
+                });
+            }
+            
+            // Finally, we pass 'employees' from List<EmployeeModel> employees above into the View():
+            return View(employees);
+        }
+
         // The View portion of the GET request. This method gets called in _Layout.cshtml on line 24 and pulls vars from EmployeeModel
         public ActionResult SignUp()
         {
