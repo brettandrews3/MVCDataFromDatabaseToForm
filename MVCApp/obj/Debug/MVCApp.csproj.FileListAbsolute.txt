@@ -162,3 +162,5 @@ C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\roslyn\
 C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\Dapper.dll
 C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\Dapper.xml
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\DataLibrary.dll
+C:\Users\735880\Documents\GitHub\MVCDataFromDatabaseToFormToo\MVCApp\bin\DataLibrary.pdb
